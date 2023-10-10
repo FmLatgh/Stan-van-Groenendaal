@@ -1,0 +1,120 @@
+.navi {
+    background-color: midnightblue;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+
+    width: 99vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    color: azure;
+    border: 5px groove black;
+    opacity: 0.4;
+    transition: all 0.3s ease-in;
+}
+
+.navi:hover {
+    opacity: 1;
+}
+
+
+a:link {
+    color: azure;
+    text-decoration: none;
+}
+
+a:visited {
+    color:azure;
+    text-decoration: none;
+}
+
+#title {
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-color: midnightblue;
+    opacity: 1;
+    color: azure;
+    text-align: center;
+    font-size: xxx-large;
+    border: 10px groove black;
+    margin-top: 50px;
+
+    animation: fadeIn 2s ease-in;
+}
+
+#subTitle {
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity:0;
+    }
+
+    to {
+        opacity:1;
+    }
+}
+
+
+p {
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    padding: 15px;
+    margin: 5px;
+}
+
+.button
+{
+    text-align: center;
+    font-size: 60px;
+    width: 50vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-color: midnightblue;
+    color: azure;
+    animation: fadeIn 3s ease-in;
+    border: none;
+}
+
+
