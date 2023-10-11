@@ -8,7 +8,7 @@ var quotes = ["The greatest glory in living lies not in never falling, but in ri
     "The only way to achieve the impossible is to believe it is possible. -Stan van Groenendaal",
      "I didn't write anything in the stars, success is a choice. Pick it up. -Stan van Groenendaal",
     "The past is a distraction from your work in the present. -Stan van Groenendaal",
-    "I am the artist. My laptop is my canvas. My code is my paint. My style is my reknown. -Stan van Groenendaal",
+    "I am the artist. My laptop is my canvas. My code is my paint. My style is my renown. -Stan van Groenendaal",
     "Don't let bad friends distract you from equilibrium. -Stan van Groenendaal",
     "I wasn't like this before, I became what I am today through my actions. -Stan van Groenendaal",
     "I always have glimpses of hope in trying times. -Stan van Groenendaal",
