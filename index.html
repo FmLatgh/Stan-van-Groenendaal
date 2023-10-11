@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,100&family=Montserrat&family=Mooli&family=Open+Sans&display=swap" rel="stylesheet">
 
 </head>
-<body>
+<body onload="getQuote()">
 <div class="navi">
     <a href="index.html">Landing</a>
     <a href="aboutme.html">About me</a>
@@ -22,12 +22,18 @@
     <h1 id="title">Stan van Groenendaal <br>
     <p id="subTitle">Excellence and Proficiency.</p>
     </h1>
-<div id="mainMenu">
-
+<div id="quote">
+<p id="quoteText" class="typewriter">Test quote</p>
 </div>
+
+<footer>
+    <h3>Welcome to my website. The menu for the other pages is on the top. You can change the language here. Enjoy your stay. Made by Stan van Groenendaal, 2023</h3>
+</footer>
 <video id="background-video" autoplay loop muted poster="img/starPost.png">
     <source src="vid/starsbg.mp4" type="video/mp4">
     <!--Later aanpassen!!!!-->
 </video>
+
+<script src="js/script.js"></script>
 </body>
 </html>
