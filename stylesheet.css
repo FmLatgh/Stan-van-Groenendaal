@@ -36,6 +36,10 @@ a:visited {
     text-decoration: none;
 }
 
+h1 {
+    font-size: xxx-large;
+}
+
 #title {
     font-family: 'Barlow', sans-serif;
     font-family: 'Montserrat', sans-serif;
@@ -79,9 +83,8 @@ footer {
     background-color: midnightblue;
     color: azure;
     text-align: center;
-    animation: fadeIn 10s ease-in;
+    animation: fadeIn 6.5s ease-in;
     border: 10px groove black;
-    margin-top: 300px;
 }
 
 
@@ -151,6 +154,7 @@ footer {
             typing 3.5s steps(40, end);
     }
 
+
 #aboutme{
     background-color: midnightblue;
     color: azure;
@@ -166,14 +170,25 @@ hr {
     border : 1px solid azure;
 }
 
+.paragraph {
+    display: flex;
+    flex-direction: row;
+}
+
 #selfie {
     width: 20vw;
     height: 50%;
-    padding-left: 40vw;
+    order: 0;
 }
 
 #paragraph1 {
-    font-size: large;
+    font-size: x-large;
+    text-align: left;
+    padding: 10px;
+}
+
+#paragraph2 {
+    font-size: x-large;
     text-align: left;
     padding: 10px;
 }
