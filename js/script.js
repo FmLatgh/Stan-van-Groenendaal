@@ -23,3 +23,6 @@ function getQuote() {
     let randomquote = Math.floor(Math.random() * quotes.length);
     document.getElementById("quoteText").innerHTML = quotes[randomquote];
 }
+    function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
