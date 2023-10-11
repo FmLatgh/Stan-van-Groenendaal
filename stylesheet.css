@@ -1,3 +1,7 @@
+body {
+ padding: 0px;
+    margin: 0px;
+}
 .navi {
     background-color: midnightblue;
     font-family: 'Barlow', sans-serif;
@@ -139,16 +143,37 @@ footer {
     to { width: 100% }
 }
 
-@keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: orange; }
-}
-
 .typewriter {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     white-space: break-spaces; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     animation:
             typing 3.5s steps(40, end);
+    }
+
+#aboutme{
+    background-color: midnightblue;
+    color: azure;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    width: 100vw;
+    height: auto;
 }
 
+hr {
+    border : 1px solid azure;
+}
+
+#selfie {
+    width: 20vw;
+    height: 50%;
+    padding-left: 40vw;
+}
+
+#paragraph1 {
+    font-size: large;
+    text-align: left;
+    padding: 10px;
+}
