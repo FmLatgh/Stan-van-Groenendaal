@@ -1,13 +1,13 @@
 body {
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Open Sans', sans-serif;
  padding: 0px;
     margin: 0px;
 }
 .navi {
     background-color: midnightblue;
-    font-family: 'Barlow', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Mooli', sans-serif;
-    font-family: 'Open Sans', sans-serif;
 
     width: 99vw;
     height: 5vh;
@@ -38,13 +38,15 @@ a:visited {
 
 h1 {
     font-size: xxx-large;
+    color:azure;
+}
+
+p {
+    color:azure;
 }
 
 #title {
-    font-family: 'Barlow', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Mooli', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+
     background-color: midnightblue;
     opacity: 1;
     color: azure;
@@ -57,10 +59,7 @@ h1 {
 }
 
 #subTitle {
-    font-family: 'Barlow', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Mooli', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+
     font-size: medium;
 }
 
@@ -76,10 +75,7 @@ h1 {
 
 
 footer {
-    font-family: 'Barlow', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Mooli', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+
     background-color: midnightblue;
     color: azure;
     text-align: center;
@@ -120,10 +116,7 @@ footer {
     height: auto;
     display: flex;
     justify-content: center;
-    font-family: 'Barlow', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Mooli', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+
     background-color: midnightblue;
     color: azure;
     animation: fadeIn 3s ease-in;
@@ -132,10 +125,7 @@ footer {
 
 #quote {
     color: azure;
-    font-family: 'Barlow', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Mooli', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+
     font-size: xx-large;
     text-align: center;
     animation: fadeIn 3s ease-in;
@@ -158,10 +148,7 @@ footer {
 #aboutme{
     background-color: midnightblue;
     color: azure;
-    font-family: 'Barlow', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Mooli', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+
     width: 100vw;
     height: auto;
 }
@@ -191,4 +178,70 @@ hr {
     font-size: x-large;
     text-align: left;
     padding: 10px;
+}
+
+/* the actual collapsed stuff */
+.collapsible {
+
+    background-color: midnightblue;
+    color: azure;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: 2px black groove;
+    text-align: center;
+    outline: none;
+    font-size: 30px;
+}
+
+/* Some styling I found on the internet that will make a collapsible*/
+.active, .collapsible:hover {
+    background-color: blue;
+}
+
+/* content of the collapsed stuff */
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: midnightblue;
+    color: azure;
+
+    border: 2px black solid;
+    font-size: 20px;
+}
+
+.warning {
+    color:red;
+}
+
+#imagescontent {
+    width: 50vw;
+    height: auto;
+}
+
+#contacttext {
+    text-align: center;
+    color:azure;
+}
+
+
+#contactcontainer {
+    padding-top: 30px;
+    text-align: center;
+    color:azure;
+    font-size:x-large;
+    animation: fadeIn 3s ease-in;
+}
+
+#contactcontainer #phonenumber {
+    color:lime;
+}
+
+#contactcontainer #discordcontact {
+    color: blue;
+}
+
+#contactcontainer #availability {
+    color: red;
 }
