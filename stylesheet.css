@@ -245,3 +245,7 @@ hr {
 #contactcontainer #availability {
     color: red;
 }
+
+#mailcontact a:link {
+    color: azure;
+}
