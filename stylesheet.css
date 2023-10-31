@@ -249,3 +249,15 @@ hr {
 #mailcontact a:link {
     color: azure;
 }
+
+#mailcontact a:visited {
+    color: azure;
+}
+
+.content a:link {
+    color: azure;
+}
+
+.content a:visited {
+    color: azure;
+}
