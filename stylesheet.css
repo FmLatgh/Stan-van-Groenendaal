@@ -42,7 +42,7 @@ h1 {
 }
 
 p {
-    color:azure;
+    /*color:azure;*/
 }
 
 #title {
@@ -59,8 +59,12 @@ p {
 }
 
 #subTitle {
-
     font-size: medium;
+    color: #ffffff;
+    text-align: center;
+    -webkit-animation: subTitle 1s ease-in-out infinite alternate;
+    -moz-animation: subTitle 1s ease-in-out infinite alternate;
+    animation: subTitle 1s ease-in-out infinite alternate;
 }
 
 @keyframes fadeIn {
@@ -70,6 +74,17 @@ p {
 
     to {
         opacity:1;
+    }
+}
+
+@-webkit-keyframes subTitle {
+    from {
+        text-shadow: 0 0 10px #ffffff, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000,
+        0 0 50px #ffffff, 0 0 60px rgba(0, 0, 0, 0), 0 0 70px #000000;
+    }
+    to {
+        text-shadow: 0 0 20px #eeeeee, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #a4a4a4,
+        0 0 60px #a4a4a4, 0 0 70px #a4a4a4, 0 0 80px #a1a1a1;
     }
 }
 
